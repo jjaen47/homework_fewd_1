@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    font-family: 'Jost', sans-serif;
+}
+
+.flex{
+    display: flex;
+}
+
+.logo{
+    color: #CD5C5C;
+    margin-left: 20px;
+}
+
+.logo h2{
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.under{
+    text-decoration: underline;
+    text-decoration-color: #CD5C5C;
+}
+
+.line{
+    text-decoration: line-through;
+}
+
+.top-header{
+    background-color: #DEB887;
+    justify-content: space-between;
+    border-bottom: 3px solid #CD5C5C;
+}
+
+.top-header nav a{
+    color: white;
+    justify-content: space-around;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.top-header nav{
+    margin-top: 20px;
+}
+
+.header{
+    background-color: #FFDAB9;
+    padding: 2px;
+}
+
+.header h2{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.banner{
+    background-image: url("banner.jpeg");
+    background-size: cover;
+    height: 400px;
+    padding:50px 0;
+    display: block;
+}
+
+.banner div{
+    background-color: rgba(255, 255, 255, 0.5);;
+    height: 230px;
+    width: 400px;
+    margin: 100px;
+    margin-left: 900px;
+    justify-content: space-around;
+    padding: 20px 15px;
+    border-radius: 5px;
+}
+
+.banner button{
+    margin-top: 5px;
+    background-color: #AFEEEE;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+}
+
+.pages{
+    display: flex;
+    background-color: none;
+}
+
+.pages .item{
+    justify-content: space-evenly;
+    text-align: left;
+    padding: 30px;
+}
+
+.item h2 p{
+    align-items: flex-start;
+}
+
+footer{
+    background-color: black;
+    padding-top: 0.5px;
+    padding-bottom: 2px;
+}
+
+footer p{
+    color: white;
+    margin-left: 15px;
+}
+
+button {
+    margin: 0;
+    padding: 13px 100px;
+    font-weight: bold;
+    background-color:#FFDAB9;
+    border: none;
+    border-radius: 3%;
+    width: 100%;
+    font-family: 'Jost', sans-serif;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px #aaaaaa;
+}
